@@ -1,6 +1,6 @@
 package ae999.narod.ru;
 /*
- Несколько опциональных аргументов
+ РќРµСЃРєРѕР»СЊРєРѕ РѕРїС†РёРѕРЅР°Р»СЊРЅС‹С… Р°СЂРіСѓРјРµРЅС‚РѕРІ
  http://pro-java.ru/java-dlya-nachinayushhix/peremennoe-chislo-argumentov-metodov-yazyka-java/
  */
 
@@ -15,12 +15,13 @@ public class Main {
       vaTest(1, 5, 7, 9, 11, 15);
     }
     
+    // С„СѓРЅРєС†РёСЏ СЃ РїРµСЂРµРјРµРЅРЅС‹Рј С‡РёСЃР»РѕРј Р°СЂРіСѓРјРµРЅС‚РѕРІ
     static private void vaTest(int ... v)
     {
       int i,l;
       l=v.length;
       System.out.println("-----------------------------");
-      System.out.println("Число аргументов: " + l);
+      System.out.println("Р§РёСЃР»Рѕ Р°СЂРіСѓРјРµРЅС‚РѕРІ: " + l);
       for(i=0; i<l;i++) {
         System.out.println(i+": " + v[i]);
       }
